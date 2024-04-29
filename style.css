@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    background-color: #ce4242;
+    color: #ffffff;
+    text-align: left;
+}
+
+ul li {
+    font-style: italic;
+}
+
+img {
+    max-width: 50%;
+    max-height: 600px;
+}
+
+.description {
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    width: 50%;
+}
