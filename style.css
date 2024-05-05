@@ -1,16 +1,21 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 
 h1 {
+    max-width: 12rem;
     font-weight: bold;
     background-color: #ce4242;
     color: #ffffff;
     text-align: left;
+    padding-left: 8px;
 }
 
-ul li {
+ul li,
+ol li{
     font-style: italic;
+    padding: 5px;
 }
 
 img {
@@ -18,9 +23,29 @@ img {
     max-height: 600px;
 }
 
-.description {
+.description_content {
     font-weight: 300;
     font-style: italic;
     text-align: left;
-    width: 50%;
+    max-width: 24rem;
+    background-color: #fca6a6;
+}
+
+.ingredients {
+    margin: 8px 0px;
+}
+
+#home_list {
+    background-color: #fca6a6;
+    width: 16em;
+    color: #ffffff;;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#home_title {
+    background-color: #bb2525;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
 }
